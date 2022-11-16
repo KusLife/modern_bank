@@ -5,7 +5,7 @@ import styles, { layout } from '../style'
 
 
 const FeatureCard = ({icon, title, content, index}) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}>
+  <div className={`flex flex-row sm:p-6 p-1 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full bg-dimBlue ${styles.flexCenter}`}>
       <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain' />
     </div>

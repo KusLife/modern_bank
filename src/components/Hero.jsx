@@ -21,8 +21,8 @@ const Hero = () => (
       </div>
 {/* leftside Hero text */}
       <div className='flex flex-row justify-between items-center w-full'>
-        <h1 className='flex-1 font-semibold font-poppins ss:text-[72px] text-[52px] text-white
-        ss:leading-[100px] leading-[75px]'>
+        <h1 className='flex-1 font-semibold font-poppins ss:text-[72px] text-[200%] text-white
+        ss:leading-[100px] leading-[40px]'>
           The Next <br className='sm:block hidden'/> {' '}
           <span className='text-gradient'>Generation
           </span> 
@@ -31,8 +31,8 @@ const Hero = () => (
           <GetStarted/>
         </div>
       </div>
-      <h1 className='font-semibold font-poppins ss:text-[68px] text-[52px] text-white
-        ss:leading-[100px] leading-[75px] w-full'>Payment Method.
+      <h1 className='font-semibold font-poppins ss:text-[68px] text-[200%] text-white
+        ss:leading-[100px] leading-[40px] w-full'>Payment Method.
         </h1>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Our team of experts uses a methodology to identify the credit cards 
